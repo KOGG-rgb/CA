@@ -1,0 +1,28 @@
+table
+{
+    border-collapse: separate;
+}
+th
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+td
+{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+caption
+{
+    font-size: 24px;
+    font-weight: bold;
+    transform: skew(-25deg);
+    color: green;
+}
+table
+{
+    position: relative;
+    left: 500px;
+}

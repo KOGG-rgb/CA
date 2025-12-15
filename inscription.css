@@ -1,0 +1,88 @@
+span
+{
+    color: yellow;
+    font-weight: bold;
+}
+label
+{
+    font-weight: bold;
+    display: inline-block;
+
+}
+form
+{
+    position: relative;
+    left: 500px;
+    top: 0px;
+    width: 460px;
+}
+fieldset
+{
+    background-color: rgb(7, 189, 235);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+legend
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    transform: skew(-25deg);
+    background-color: black;
+}
+.in
+{
+    background-color: red;
+}
+.in:hover
+{
+    background-color: blue;
+    transition: 0.5s;
+}
+.l1
+{
+    color: red;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.l2
+{
+    color: blue;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#s
+{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#s,#a
+{
+    position: relative;
+    left: 100px;
+}
+#s:hover
+{
+    background-color: white;
+    color: blue;
+    transition: 0.5s;
+}
+#a
+{
+    background-color: red;
+    color: white;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#a:hover
+{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}

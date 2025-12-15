@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.par
+{
+    position: relative;
+    right: 20px;
+}
+header
+{
+    background-color: rgb(14, 48, 241);
+    height: 120px;
+    width: 1500px;
+    display: inline-block;
+    position: relative;
+}
+img.img1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img3
+{
+    width: 50px;
+    height: 30px;
+}
+img.img2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+header h1
+{
+    margin-left: 670px;
+    color: white;
+    margin-top: 30px;
+    transform: skew(-25deg);
+    text-shadow: 3px 3px 5px red;
+}
+nav
+{
+    background-color: rgb(255, 17, 0);
+    height: 80px;
+    width: 1500px;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline-block;
+}
+nav a
+{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    position: relative;
+    left: 550px;
+    top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-width:2px ;
+    border-color: purple;
+    border-style: dashed;
+    background-color: brown;
+}
+nav a:hover
+{
+    background-color: white;
+    transform: scale(1.5);
+    color: brown;
+    transition: 1s;
+    border-style: double;
+}
+section
+{
+    background-color: rgb(4, 226, 97);
+    height: 390px;
+    width: 1283px;
+    display: inline-block;
+}
+.img1
+{
+    animation: shake 2s infinite alternate;
+}
+.img2
+{
+    animation: shake1 2s infinite alternate;
+}
+@keyframes shake1
+{
+    from {transform: translateX(-550px);};
+    to {transform: translateX(600px);};
+}
+@keyframes shake
+{
+    from {transform: translateX(550px);};
+    to {transform: translateX(-600px);};
+}
+iframe
+{
+    width: 100%;
+    height: 100%;
+}
+aside
+{
+    background-color: rgb(255, 238, 0);
+    height: 390px;
+    width: 216px;
+    position: absolute;
+    right: 18px;
+    bottom: 106px;
+}
+aside img
+{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 30px;
+    border-radius: 50%;
+    animation: pope 2s infinite alternate;
+}
+@keyframes pope {
+    from {transform: translateY(190px);};
+    to {transform: translateY(-190px);};
+}
+footer
+{
+    background-color: rgb(255, 17, 0);
+    height: 60px;
+    width: 1500px;
+    position: relative;
+    bottom: 4px;
+}
+footer address
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
