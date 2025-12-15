@@ -121,7 +121,7 @@ aside
     height: 390px;
     width: 216px;
     position: absolute;
-    right: 18px;
+    right: 0px;
     bottom: 106px;
 }
 aside img
@@ -154,4 +154,5 @@ footer address
     position: relative;
     left: 100px;
     top: 10px;
+
 }
