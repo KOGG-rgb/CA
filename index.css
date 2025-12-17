@@ -120,9 +120,9 @@ aside
     background-color: rgb(255, 238, 0);
     height: 390px;
     width: 216px;
-    position: absolute;
-    right: 0px;
-    bottom: 106px;
+    position: relative;
+    left: 1283px;
+    bottom: 395px;
 }
 aside img
 {
@@ -156,3 +156,4 @@ footer address
     top: 10px;
 
 }
+
